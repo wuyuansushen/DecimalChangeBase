@@ -7,9 +7,9 @@ namespace DecimalChangeBase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Input Number:");
+            Console.Write("Input Number: ");
             int input = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Input Base Number(2-36):");
+            Console.Write("Input Base Number(2-36): ");
             int baseNum = Convert.ToInt32(Console.ReadLine());
 
             if (baseNum > 36 || baseNum < 2)
