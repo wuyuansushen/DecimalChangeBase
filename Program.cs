@@ -51,7 +51,7 @@ namespace DecimalChangeBase
                 }
                 #endregion
 
-                //Input Process and Half return
+                //Input Process
                 #region
                     while (input >= baseNum)
                     {
@@ -62,7 +62,7 @@ namespace DecimalChangeBase
                     output.Add(input);
                 #endregion
 
-                //another half Output
+                //Output
                 for (int i = output.Count - 1; i >= 0; i--)
                 {
                     Console.Write($"{outputMap[output[i]]}");
