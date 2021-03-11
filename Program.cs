@@ -53,13 +53,6 @@ namespace DecimalChangeBase
 
                 //Input Process and Half return
                 #region
-                if (input < baseNum)
-                {
-                    Console.WriteLine($"{outputMap[input]}");
-                    return;
-                }
-                else
-                {
                     while (input >= baseNum)
                     {
                         int tmp = input % baseNum;
@@ -67,7 +60,6 @@ namespace DecimalChangeBase
                         input = (input - tmp) / baseNum;
                     }
                     output.Add(input);
-                }
                 #endregion
 
                 //another half Output
